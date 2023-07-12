@@ -2,10 +2,10 @@ import { View, Text } from "react-native";
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
-import Splash from "./Auth/Splash";
+import Splash from "../Auth/Splash";
 import Login from "./Auth/Login";
-import Category from "./AdminScreens/Category";
-import Product from "./AdminScreens/Product";
+import Category from "../AdminScreens/Category";
+import Product from "../AdminScreens/Product";
 
 const Stack = createStackNavigator();
 function AppNavigator() {

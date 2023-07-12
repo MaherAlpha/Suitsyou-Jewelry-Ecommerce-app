@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Firebase = () => {
+const Users = () => {
   return (
     <View>
-      <Text>Firebase</Text>
+      <Text>Users</Text>
     </View>
   )
 }
 
-export default Firebase
+export default Users
